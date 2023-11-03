@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <nav class="navigation">
+            <p class="logo">Awesome Books</p>
+            <a href="#list-books">List Books</a>
+            <a href="#add-book">Add a Book</a>
+            <a href="#contact">Contact Info</a>
+        </nav>
+        <div class="date">
+        </div>
+        <main class="main-content">
+            <section id="list-books">
+                <h2>All Awesome Books</h2>
+                <div class="display-books">
+                </div>
+            </section>
+            <section id="add-book">
+                <h2>Add a New Book</h2>
+                <form>
+                    <label for="book-title">
+                        <input id="book-title" name="book-title" type="text" placeholder="Book Title" required>
+                    </label>
+                    <label for="book-author">
+                        <input id="book-author" name="book-author" type="text" placeholder="Book Author" required>
+                    </label>
+                    <input type="submit" value="submit">
+                </form>
+            </section>
+            <section id="contact">
+                <h2>Contact Information</h2>
+                <p>Do you have any questions or you just want to say "Hello"?
+                    You can reach out to us!</p>
+                <ul class="contact-info">
+                    <li><span>EMAIL: </span>jubrilhimself@gmail.com</li>
+                    <li><span>PHONE NO.: </span>09072306028</li>
+                    <li><span>ADDRESS: </span>Microverse HQ</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>Jubril.codes &copy; 2023</p>
+        </footer>
+    </div>
+</body>
+</html>
